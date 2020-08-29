@@ -1,0 +1,62 @@
+.positionModal {
+    color: #333333;
+    .MuiPaper-root {
+        max-width: 677px;
+        box-sizing: border-box;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 26px;
+    }
+    .positionModal__content {
+        padding: 40px 40px 20px;
+    }
+    &__form {
+        .MuiFormControl-root {
+            margin-bottom: 28px;
+        }
+    }
+    &__subTitle {
+        font-size: 18px;
+        color: #2290E0;
+        font-weight: 700;
+        padding-bottom: 10px;
+        margin-top: 18px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #828282;
+    }
+    &__h3 {
+        font-weight: 600;
+        color: #2290E0;
+        margin-bottom: 16px;
+    }
+    .positionModalLink {
+        color: #2290E0;
+        margin-bottom: 32px;
+        margin-top: -6px;
+        margin-left: -6px;
+        text-transform: unset;
+        font-size: 16px;
+    }
+    .MuiFormControl-root {
+        margin-bottom: 38px;
+    }
+    .positionModal__formControl {
+        margin-bottom: 5px;
+    }
+    &__checkbox {
+        margin-bottom: 16px;
+    }
+    .delete {
+        text-decoration: none;
+        span {
+            font-size: 16px;
+            color: #FF3B30;
+            cursor: pointer;
+            transition: all .3s ease;
+            line-height: 1;
+            font-weight: 600;
+        }
+    }
+}

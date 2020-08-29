@@ -1,0 +1,32 @@
+.paginations {
+    margin-top: 30px;
+    .MuiButtonBase-root {
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        border: 0.5px solid #DADADA;
+        box-sizing: border-box;
+        border-radius: 2px;
+        font-size: 12px;
+        font-weight: 600;
+        .MuiPaginationItem-icon {
+            font-size: 24px;
+            color: #ABABAB
+        }
+        &:hover {
+            background-color: #fff;
+        }
+        &.Mui-selected,
+        &.Mui-selected:hover {
+            background-color: #2290E0;
+            border-color: #2290E0;
+            color: #ffffff;
+        }
+    }
+    .MuiPaginationItem-ellipsis {
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        min-width: 30px;
+    }
+}
